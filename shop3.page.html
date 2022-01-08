@@ -1,0 +1,136 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            <img src="assets/logos/log.png">
+        </ion-title>
+        <ion-icon name="bag"></ion-icon>
+        <ion-buttons slot="start">
+            <ion-menu-button menu="mainMenu"></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="name-logo">
+        <img src="assets/products/hd (2).png">
+    </div>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <div>
+                            <h2>CREAM</h2>
+                        </div>
+                        <div>
+                            <h2>CHEESE</h2>
+                        </div>
+                        <img src="assets/products/prod9.jpg" />
+                        <h1>Its flavours are soft, with a soothing balance of slightly acidic notes to compensate.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <div>
+                            <h2>FETA</h2>
+                        </div>
+                        <img src="assets/products/prod10.jpg" />
+                        <h1>This Greek delicacy delights in its tangy and somewhat salty notes, along with a creamy and almost crumbly texture.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2>MOZZARELLA</h2>
+                        </div>
+                        <img src="assets/products/prod11.jpeg" />
+                        <h1 style="font-size: 14px;">Its texture is springy and dense, accompanied by a light aroma of rich cream.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2>BURRATA</h2>
+                        </div>
+                        <img src="assets/products/prod12.jpg" />
+                        <h1>Smooth, fresh and with a delightful clash of textures, it seduces with its decadent and mellow nature.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div class="next-right">
+        <ion-button (click)="iconClickedright()" color='transparent'>
+            <ion-icon id="right" name="chevron-forward-circle"></ion-icon>
+        </ion-button>
+
+    </div>
+    <div class="next-left">
+        <ion-button (click)="iconClickedleft()" color='transparent'>
+            <ion-icon id="left" name="chevron-back-circle"></ion-icon>
+        </ion-button>
+    </div>
+</ion-content>
+
+<ion-footer>
+    <div class="home">
+        <h4>Home</h4>
+    </div>
+    <div class="about">
+        <h4>About Us</h4>
+    </div>
+    <div class="contact">
+        <h4>Contact Us</h4>
+    </div>
+    <div class="locate">
+        <h4>Locate Us</h4>
+    </div>
+
+    <div class="fb">
+        <ion-icon id="fbb" name="logo-facebook"></ion-icon>
+    </div>
+    <div class="insta">
+        <ion-icon id="ig" name="logo-instagram"></ion-icon>
+
+    </div>
+    <div class="twit">
+        <ion-icon id="twt" name="logo-twitter"></ion-icon>
+    </div>
+
+</ion-footer>
