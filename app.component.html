@@ -1,0 +1,66 @@
+<ion-app>
+    <ion-menu menuId="mainMenu" content-id="main">
+        <ion-content>
+            <div class="menu-head">
+                <center><img src="assets/logos/log.png">
+                    <h1>Dairy Dooms</h1>
+                </center>
+            </div>
+
+            <ion-list>
+                <ion-item color="transparent"></ion-item>
+                <ion-menu-toggle>
+                    <ion-item color="transparent" routerLink="/">
+                        <ion-label>Home</ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+
+                <ion-menu-toggle>
+                    <ion-item color="transparent" routerLink="/shop">
+                        <ion-label>Shop</ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+
+                <ion-menu-toggle>
+                    <ion-item color="transparent" routerLink="/">
+                        <ion-label>About Us</ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+
+                <ion-menu-toggle>
+                    <ion-item color="transparent" routerLink="/">
+                        <ion-label>Contact Us</ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+
+                <ion-menu-toggle>
+                    <ion-item color="transparent" routerLink="/">
+                        <ion-label>Locate Us</ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+            </ion-list>
+
+            <div class="menu-foot">
+                <h4>© 2022, Dairy Dooms Online <br> Metro Manila, NCR <br> Philippines
+                </h4>
+            </div>
+
+            <div class="fb">
+                <ion-icon id="fbb" name="logo-facebook"></ion-icon>
+            </div>
+            <div class="insta">
+                <ion-icon id="ig" name="logo-instagram"></ion-icon>
+
+            </div>
+            <div class="twit">
+                <ion-icon id="twt" name="logo-twitter"></ion-icon>
+
+            </div>
+
+
+
+
+        </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

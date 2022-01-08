@@ -1,0 +1,79 @@
+.menu-head {
+    height: 200px;
+    width: 100%;
+    background-color: #FFDB99;
+    h1 {
+        margin: 5px;
+        color: black;
+        font-size: 45px;
+        font-family: 'Roboto';
+    }
+    img {
+        margin-top: 10px;
+        width: 130px;
+        height: 120px;
+    }
+}
+
+ion-list {
+    background-color: #FFDB99;
+    ion-label {
+        color: black;
+        font-family: 'Roboto';
+        font-size: 40px;
+    }
+    ion-item {
+        color: #664200;
+    }
+}
+
+ion-content {
+    --ion-background-color: #FFDB99;
+}
+
+.menu-foot {
+    h4 {
+        text-align: right;
+        margin-top: 60px;
+        margin-right: 10px;
+        float: right;
+        color: black;
+        font-family: 'Roboto';
+        font-size: 15px;
+    }
+}
+
+.fb {
+    margin-left: 10px;
+    margin-top: 160px;
+    #fbb {
+        height: 40px;
+        float: left;
+        width: 40px;
+        margin-left: 35px;
+        color: black;
+    }
+}
+
+.insta {
+    margin-left: 10px;
+    margin-top: 150px;
+    #ig {
+        height: 40px;
+        float: left;
+        margin-left: 50px;
+        width: 40px;
+        color: black;
+    }
+}
+
+.twit {
+    margin-top: 30px;
+    #twt {
+        height: 40px;
+        float: left;
+        margin-left: 50px;
+        width: 40px;
+        color: black;
+    }
+}
