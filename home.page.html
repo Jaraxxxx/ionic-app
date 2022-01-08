@@ -1,0 +1,88 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            <img src="assets/logos/log.png">
+        </ion-title>
+
+        <ion-button (click)="openCart()" color='transparent' #cart>
+            <div class="cart-length">{{ cartItemCount | async }}</div>
+            <ion-icon name="bag"></ion-icon>
+        </ion-button>
+
+        <ion-buttons slot="start">
+            <ion-menu-button menu="mainMenu"></ion-menu-button>
+        </ion-buttons>
+
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <div class="name-logo">
+        <img src="assets/logos/logoooo.png">
+    </div>
+
+    <ion-card>
+        <ion-card-content>
+            <img src="assets/products/featured pic.jpg" />
+            <h2>Featured Products</h2>
+        </ion-card-content>
+    </ion-card>
+
+    <center>
+        <ion-button (click)="clickShop()" color='transparent'>SHOP NOW</ion-button>
+    </center>
+
+    <ion-card>
+        <ion-card-content>
+            <img src="assets/products/hardcheese.png" />
+            <h2>Hard Cheese</h2>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <img src="assets/products/bluemouldcheese.png" />
+            <h2>Blue Mould Cheese</h2>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <img src="assets/products/fresh cheese.png" />
+            <h2>Fresh Cheese</h2>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <img src="assets/products/goat cheese.png" />
+            <h2>Goat Cheese</h2>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
+
+<ion-footer>
+    <div class="home">
+        <h4>Home</h4>
+    </div>
+    <div class="about">
+        <h4>About Us</h4>
+    </div>
+    <div class="contact">
+        <h4>Contact Us</h4>
+    </div>
+    <div class="locate">
+        <h4>Locate Us</h4>
+    </div>
+
+    <div class="fb">
+        <ion-icon id="fbb" name="logo-facebook"></ion-icon>
+    </div>
+    <div class="insta">
+        <ion-icon id="ig" name="logo-instagram"></ion-icon>
+
+    </div>
+    <div class="twit">
+        <ion-icon id="twt" name="logo-twitter"></ion-icon>
+    </div>
+
+</ion-footer>
