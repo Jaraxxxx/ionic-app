@@ -1,0 +1,134 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            <img src="assets/logos/log.png">
+        </ion-title>
+        <ion-icon name="bag"></ion-icon>
+        <ion-buttons slot="start">
+            <ion-menu-button menu="mainMenu"></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="name-logo">
+        <img src="assets/products/hd (1).png">
+    </div>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-card class="two">
+                    <ion-card-content>
+                        <div>
+                            <h2>GORGONZOLA</h2>
+                        </div>
+                        <img src="assets/products/prod5.jpg" />
+                        <h1>The white and blue marbling stands gracefully on a cheeseboard, pairing wonderfully with grapes, honey and pistachios.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <div>
+                            <h2>ROQUEFORT</h2>
+                        </div>
+                        <img src="assets/products/prod6.jpg" />
+                        <h1 style="font-size: 13px;">Its body is moist and laced with small blue pockets, providing a blend of sharp and tangy nuances.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2 style="font-size: 16px;">STILTON</h2>
+                        </div>
+                        <img src="assets/products/prod7.jpeg" />
+                        <h1 style="font-size: 14px;">Less moist than other blue mould cheeses, Stilton is strong and intense.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2>DANISH BLUE</h2>
+                        </div>
+                        <img src="assets/products/prod8.jpg" />
+                        <h1 style="font-size: 13px;">Made using milk from local cattle, comforts with a creamy profile of intricate flavours and a smooth texture. </h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <div class="next-right">
+        <ion-button (click)="iconClickedright()" color='transparent'>
+            <ion-icon id="right" name="chevron-forward-circle"></ion-icon>
+        </ion-button>
+
+    </div>
+    <div class="next-left">
+        <ion-button (click)="iconClickedleft()" color='transparent'>
+            <ion-icon id="left" name="chevron-back-circle"></ion-icon>
+        </ion-button>
+    </div>
+</ion-content>
+
+<ion-footer>
+    <div class="home">
+        <h4>Home</h4>
+    </div>
+    <div class="about">
+        <h4>About Us</h4>
+    </div>
+    <div class="contact">
+        <h4>Contact Us</h4>
+    </div>
+    <div class="locate">
+        <h4>Locate Us</h4>
+    </div>
+
+    <div class="fb">
+        <ion-icon id="fbb" name="logo-facebook"></ion-icon>
+    </div>
+    <div class="insta">
+        <ion-icon id="ig" name="logo-instagram"></ion-icon>
+
+    </div>
+    <div class="twit">
+        <ion-icon id="twt" name="logo-twitter"></ion-icon>
+    </div>
+
+</ion-footer>
