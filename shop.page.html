@@ -1,0 +1,147 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            <img src="assets/logos/log.png">
+        </ion-title>
+
+        <ion-button (click)="openCart()" color='transparent' #cart>
+            <div class="cart-length">{{ cartItemCount | async }}</div>
+            <ion-icon name="bag"></ion-icon>
+        </ion-button>
+
+        <ion-buttons slot="start">
+            <ion-menu-button menu="mainMenu"></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="name-logo">
+        <img src="assets/products/hd.png">
+    </div>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <div>
+                            <h2>PARMIGIANO</h2>
+                        </div>
+                        <div>
+                            <h2>- REGGIANO</h2>
+                        </div>
+                        <img src="assets/products/prod1.jpg" />
+                        <h1>The texture is firm when young, becoming granular and crystallised as it ages.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <div>
+                            <h2>GRANA -</h2>
+                        </div>
+                        <div>
+                            <h2>PANADO</h2>
+                        </div>
+                        <img src="assets/products/prod2.jpg" />
+                        <h1>Slightly milder, the body is less granular, only requiring 9 months of maturation.</h1>
+                        <div class="third">
+
+                            <ion-button fill="clear" (click)="addToCart()">
+                                <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                            </ion-button>
+
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2>MANCHEGO</h2>
+                        </div>
+                        <img src="assets/products/prod3.jpg" />
+                        <h1 style="font-size: 14px;">It is nutty, with light touches of sweet fruit and spice.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card class="one">
+                    <ion-card-content>
+                        <div>
+                            <h2>PECORINO</h2>
+                        </div>
+                        <img src="assets/products/prod4.jpg" />
+                        <h1>Made using fresh milk from sheep, has been produced in the same way for over two millennia.</h1>
+                        <div class="third">
+                            <ion-icon id="thirdd" name="bag-add-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-button color='transparent'>BUY NOW</ion-button>
+                        </div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div class="next-right">
+        <ion-button (click)="iconClicked()" color='transparent'>
+            <ion-icon id="right" name="chevron-forward-circle"></ion-icon>
+        </ion-button>
+
+    </div>
+
+
+
+
+</ion-content>
+
+<ion-footer>
+    <div class="home">
+        <h4>Home</h4>
+    </div>
+    <div class="about">
+        <h4>About Us</h4>
+    </div>
+    <div class="contact">
+        <h4>Contact Us</h4>
+    </div>
+    <div class="locate">
+        <h4>Locate Us</h4>
+    </div>
+
+    <div class="fb">
+        <ion-icon id="fbb" name="logo-facebook"></ion-icon>
+    </div>
+    <div class="insta">
+        <ion-icon id="ig" name="logo-instagram"></ion-icon>
+
+    </div>
+    <div class="twit">
+        <ion-icon id="twt" name="logo-twitter"></ion-icon>
+    </div>
+
+</ion-footer>
